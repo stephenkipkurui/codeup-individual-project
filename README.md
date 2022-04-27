@@ -69,7 +69,20 @@ Acquired data from the open-source Kaggle website (https://www.kaggle.com/code/g
 
 ## Data Dictionary 
 
-
+| Variable | Defination |
+| --- | --- | --- |
+| race | Enthnic Classification of race (White, Black, Hispanic, Asian, Native & Other) | 
+| Caucasians | Same refference as white |
+| enc_arm_category | Armed suspect class one-hot encoded as (Unarmed 0, Unknown 1, Blunt instruments 2, Other unusual objects 3, Sharp objects 4, Vehicles 5, 
+                                                   Multiple 6, Electrical devices 7, Piercing objects 8, Explosives 9, Guns 10) |
+| gun_violence_percentage | Percentage of gun-related violence |
+| race_gun_violence | Gun-related race proportions |
+| manner_of_death | How suspect died. Comprises and one-hot encoded as (shot 0, shot and Tasered 1) |
+| enc_attack_level | Perceived level of attach as reported by police one-hot encoded as (undetermined 0, attack 1, other 2) |
+| enc_flee | Suspect fleeing from arrest one-hot encoded as (Not fleeing 0, Foot 1, Car 2, other 3) |
+| enc_gender | Suspect's gender. One-hot encoded as (F 0, M 1) |
+| enc_body_camera | Police officer's body camera one-hot encoded as bool (F 0, T 1) |
+| enc_race | Shot suspect identifying race. Encoded as (White 0, Black 1, Hispanic 2, Native 3, Asian 4, other 4) |
 
 
 ## Appendix
