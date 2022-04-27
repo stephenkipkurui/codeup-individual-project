@@ -48,6 +48,11 @@ def encode_data(df):
 
 
 def prepare_police_shootings_data():
+    '''
+    Main prepare function for police df data preparation. Function performs all necessary 
+    data preparation functions for exploration.
+    
+    '''
     # Get dataframe from acquire.py
     df = get_police_shootings_data()
     
@@ -89,7 +94,13 @@ def prepare_police_shootings_data():
 
 
 def prepare_modeling_data(target = 'gun_violence',seed = 123):
+    '''
+    This function is an extension to the prepare_police_shootings_data above and intended for 
+    medeling. All categorical data have been stripped, encoded and target variable set in the 
+    header aswell as seed.
+    '''
     train, validate, test = prepare_police_shootings_data()
+    
     train = train.drop(columns = ['manner_of_death', 'armed', 'gender', 'race','city', 
                           'state', 'signs_of_mental_illness','threat_level','flee',
                           'body_camera','arms_category'])
@@ -99,9 +110,5 @@ def prepare_modeling_data(target = 'gun_violence',seed = 123):
     test = test.drop(columns = ['manner_of_death', 'armed', 'gender', 'race','city', 
                           'state', 'signs_of_mental_illness','threat_level','flee',
                           'body_camera','arms_category'])
-    
-#     train['gun_violence'] = np.where(train['arms_category']== 'Guns', 1, 0)
-#     validate['gun_violence'] = np.where(validate['arms_category']== 'Guns', 1, 0)
-#     test['gun_violence'] = np.where(test['arms_category']== 'Guns', 1, 0)
 
     return train, validate, test
