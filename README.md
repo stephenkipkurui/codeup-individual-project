@@ -70,7 +70,7 @@ Acquired data from the open-source Kaggle website (https://www.kaggle.com/code/g
 ## Data Dictionary 
 
 | Variable | Defination |
-| --- | --- | --- |
+| --- | --- |
 | race | Enthnic Classification of race (White, Black, Hispanic, Asian, Native & Other) | 
 | Caucasians | Same refference as white |
 | enc_arm_category | Armed suspect class one-hot encoded as (Unarmed 0, Unknown 1, Blunt instruments 2, Other unusual objects 3, Sharp objects 4, Vehicles 5, 
