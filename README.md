@@ -73,8 +73,7 @@ Acquired data from the open-source Kaggle website (https://www.kaggle.com/code/g
 | --- | --- |
 | race | Enthnic Classification of race (White, Black, Hispanic, Asian, Native & Other) | 
 | Caucasians | Same refference as white |
-| enc_arm_category | Armed suspect class one-hot encoded as (Unarmed 0, Unknown 1, Blunt instruments 2, Other unusual objects 3, Sharp objects 4, Vehicles 5, 
-                                                   Multiple 6, Electrical devices 7, Piercing objects 8, Explosives 9, Guns 10) |
+| enc_arm_category | Armed suspect class one-hot encoded as (Unarmed 0, Unknown 1, Blunt instruments 2, Other unusual objects 3, Sharp objects 4, Vehicles 5, Multiple 6, Electrical devices 7, Piercing objects 8, Explosives 9, Guns 10) |
 | gun_violence_percentage | Percentage of gun-related violence |
 | race_gun_violence | Gun-related race proportions |
 | manner_of_death | How suspect died. Comprises and one-hot encoded as (shot 0, shot and Tasered 1) |
