@@ -56,13 +56,16 @@ Acquired data from the open-source Kaggle website (https://www.kaggle.com/code/g
 - **Creativity has no measure- explore further and share your projects with me**.
 
 ## Key Findings
-- With regards to gun violence, race and gun violence are related. Police 
--
+- With regards to gun violence, race and gun violence are related. 
+- Gun related police shootings account for over 53% of all crimes explored in this dataset.
+- White community population accounts for over 50% of sample in this set. It is possible that understanding race in other communities other than white may lack complete accuracy. With this in mind assuming the data represent America diversity, the Caucasian community are killed way more in police related shootings than any other enthnic community. 
+- Predicting gun violence with classification modeling approach, resulted with Random Forest prediction accuracy of 99.90% over the baseline of 56.37%.
 
 
 ## Future work
-- 
-- 
+- Would like to continue exploration with this dataset reviewing features such as location factors (city, state) of gun violence and how they differ with other crimes as well, the age of the victim/ suspect, how gender factors are in combinations with other factors(gender dis proportionally vary with gun violence. Over 95% of all gun violence incidents are perpetrated by male suspects).
+- With more data, we can examine factors such as proximity to social institutions like schools and public places as these places have experienced a lot of attentions in the media lately. Lastly, social-economic factors of the perpetrators as well as police shooting incidents histories would be beneficial in exploring further development in this important topic.
+
 
 ## Data Dictionary 
 
@@ -70,6 +73,6 @@ Acquired data from the open-source Kaggle website (https://www.kaggle.com/code/g
 
 
 ## Appendix
-Project GitHub Repository: 
+Project GitHub Repository: gh repo clone stephenkipkurui/codeup-individual-project
 
 
